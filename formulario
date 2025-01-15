@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pesquisa de Opinião Estudantil</title>
+        <link rel="stylesheet" href="TESTE.css">
+    </head>
+    <body>
+        <header>
+        <h1 style="text-align: center;">Pesquisa de Opinião Estudantil</h1>
+        <h3 style="text-align: center;">Complete o formulário abaixo para nos ajudar a entender melhor suas experiências e necessidades educacionais.</h3>
+        </header>
+        
+        
+        <form action="file:///C:/Users/joaov/Desktop/Teste.html" method="post" id="fomulario">
+        <p> Escreva seu nome completo:
+            <input type="text" placeholder="Nome completo" required>
+        </p>
+        <p> 
+            Escreva seu e-mail:
+            <input type="email" placeholder="Nome@email.com" required>
+        </p>
+        <p>
+            Escolha seu ano escolar:
+            <select name="Ano escolar" id="ano">
+                <option value="nulo" aria-checked="true">Escolha o ano</option>
+                <option value="1ano">Primeiro ano</option>
+                <option value="2ano">Segundo ano</option>
+                <option value="3ano">Terceiro ano</option>
+            </select>
+        </p>
+        <p>
+            Escolha seus cursos de interesse: <br>
+            <input type="checkbox" id="prog" name="programacao" value="Prog"> 
+            <label for="prog">Programação web</label>
+            <input type="checkbox" id="tur" name="turismo" value="Tur">
+            <label for="tur">Turismo</label>
+            <input type="checkbox" id="mat" name="matematica" value="Mat">
+            <label for="tur">Matemática</label>
+            <input type="checkbox" id="fis" name="fisica" value="Fis">
+            <label for="tur">Física</label>
+        </p>
+        <p>
+            Expectativas para o ano letivo: <br>
+            <textarea name="expectativa" id="expec" placeholder="Escreva aqui sua expectativa" maxlength="100"></textarea>
+        </p>
+        <p>
+            Escolha seu ano de nascimento:
+            <input type="date" id="nasc">
+        </p>
+        <p>
+            Hora preferencial para estudo: <br>
+            Entre <input type="time"> e <input type="time">
+        </p>
+        <p>
+            <button type="submit">Enviar</button>     <button type="reset">Limpar</button>
+        </p>
+
+
+        </form>
+    </body>
+</html>
